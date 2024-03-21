@@ -1,0 +1,55 @@
+.navbar {
+    background-color: #1c2e41;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(130, 230, 180);
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: lawngreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar a:hover {
+    text-align:0 ;
+    color: rgb(252, 5, 5);
+
+
+    text-align:0 ;
+    background: linear-gradient(rgb(0, 18, 46), rgb(0, 0, 0)); color:  rgb(141, 1, 255);
+    background-color: #a3faaf;
+    border-radius: 40px;
+    
+} 
+body{
+    background: url("../img/ll.jpg" ) ;
+    background-position: center;
+ background-size: cover;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+    
+ 
+}
+#contenido {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000; /* Borde del cuadro */
+    width: auto; /* Ancho automático para adaptarse al contenido */
+    max-width: 90%; /* Establece un ancho máximo */
+    background: rgba(0, 0, 0, 0.692); /* Cambiado a un color de fondo semi-transparente */
+    color: white;
+    border-radius: 5px;
+    padding: 20px; /* Ajusta el relleno */
+    margin: 10px auto; /* Centra el contenedor y agrega margen superior e inferior */
+    text-align: justify; /* Justifica el texto */
+    display: grid;
+    place-items: center;
+}
+img{
+   border: 7px solid white;
+}
